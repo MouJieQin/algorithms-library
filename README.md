@@ -8,14 +8,13 @@ c++ template of Introduction to Algorithms
 
 2.不相交集合和不相交森林在文件“disjoint_set.h”中，无测试文件。
 
-3.二叉堆和斐波那契堆在文件“heap.h”中，测试文件“heap_test.h",经测试两者都比std::priority_queue快80%左右。
+3.二叉堆和斐波那契堆在文件“heap.h”中，测试文件“heap_test.h"。
 
 4.红黑树，区间树，顺序统计数，都在同名文件中，没有独立测试文件，但类中都含有一个类似于print的打印函数用于验证。
 
-5.以红黑树为基础重新设计了map,multimap,set,multiset,因为都以红黑树为基础，所以只测试了qmj::set,测试文件为“test_set.h”，经测试比std::set快80%左右。
+5.以红黑树为基础重新设计了map,multimap,set,multiset,因为都以红黑树为基础，所以只测试了qmj::set,测试文件为“test_set.h”。
 
-6.以哈希表为基础重写hash_set,hash_map,hash_multiset,hash_multimap,因都以hashtable为基础，所以只测试了qmj::hash_set,经测试比std::unordered_set快
-80%左右
+6.以哈希表为基础重写hash_set,hash_map,hash_multiset,hash_multimap,因都以hashtable为基础，所以只测试了qmj::hash_set。
 
 7以斐波那契额堆优化的各种图算法，最小生成树，单源最短的路路径，所有节点的最短路径，拓扑排序，BFS，DFS，等，没有单独测试文件。所有算法名称均以书上的名字命名。
 
